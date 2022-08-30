@@ -1,0 +1,43 @@
+In this home work we will work on "customers" table in "classicmodels" schema
+Write queries that do next logic:
+
+1)Select all data from customers table
+2)Select only contactLastName, contactFirstName, customerNumber columns 
+3)modify previous query but this time change column names to "contact last name", "contact first name", "customer number"  
+4)modify previous query to display only those contacts who have customerNumber higer than 100 and lower than 200; (tip: use WHERE)
+
+
+edgar*
+5) insert to the customers table your self (your name, phone number city etc..)
+
+Big Tip (use next query but change VALUES to the relevant values)
+
+INSERT INTO `classicmodels`.`customers`
+(`customerNumber`,
+`customerName`,
+`contactLastName`,
+`contactFirstName`,
+`phone`,
+`addressLine1`,
+`addressLine2`,
+`city`,
+`state`,
+`postalCode`,
+`country`,
+`salesRepEmployeeNumber`,
+`creditLimit`)
+VALUES
+(<{customerNumber: }>,
+<{customerName: }>,
+<{contactLastName: }>,
+<{contactFirstName: }>,
+<{phone: }>,
+<{addressLine1: }>,
+<{addressLine2: }>,
+<{city: }>,
+<{state: }>,
+<{postalCode: }>,
+<{country: }>,
+<{salesRepEmployeeNumber: }>,
+<{creditLimit: }>);
+
